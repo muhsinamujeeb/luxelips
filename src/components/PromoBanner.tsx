@@ -20,8 +20,9 @@ export default function PromoBanner() {
         } else if (prev.minutes > 0) {
           return { ...prev, minutes: prev.minutes - 1, seconds: 59 };
         } else if (prev.hours > 0) {
-          return { hours: prev.hours - 1, minutes: 59, seconds: 59 };
+          return { ...prev, hours: prev.hours - 1, minutes: 59, seconds: 59 };
         }
+        // When timer hits 00:00:00, reset or clear interval. Loops back to 23:59:59 here.
         return { hours: 23, minutes: 59, seconds: 59 };
       });
     }, 1000);
@@ -42,7 +43,7 @@ export default function PromoBanner() {
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="public/assets/images/im4.png"
+          src="/assets/images/im4.png" // Fixed relative public directory path
           alt=""
           className="w-full h-full object-cover"
         />
