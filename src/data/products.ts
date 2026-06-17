@@ -36,7 +36,7 @@ export const products: Product[] = [
     id: '3',
     name: 'Nude Brown',
     price: 26,
-    image: 'https://images.pexels.com/photos/2113885/pexels-photo-2113885.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'public/assets/images/im1.png',
     category: 'nude',
     finish: 'satin',
     shade: 'Nude Brown',
