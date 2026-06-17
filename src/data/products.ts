@@ -21,7 +21,7 @@ export const products: Product[] = [
     id: '2',
     name: 'Velvet Pink',
     price: 28,
-    image: 'https://images.pexels.com/photos/2648629/pexels-photo-2648629.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'public/assets/images/im2.png',
     category: 'matte',
     finish: 'matte',
     shade: 'Velvet Pink',
