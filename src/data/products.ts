@@ -6,7 +6,7 @@ export const products: Product[] = [
     name: 'Ruby Red Matte',
     price: 32,
     originalPrice: 45,
-    image: 'https://images.pexels.com/photos/2589018/pexels-photo-2589018.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'public/assets/images/im3.png',
     category: 'matte',
     finish: 'matte',
     shade: 'Ruby Red',
