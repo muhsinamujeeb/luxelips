@@ -65,7 +65,7 @@ export const products: Product[] = [
     id: '5',
     name: 'Coral Shine',
     price: 28,
-    image: 'https://images.pexels.com/photos/2614199/pexels-photo-2614199.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'public/assets/images/im3.png',
     category: 'glossy',
     finish: 'glossy',
     shade: 'Coral Shine',
