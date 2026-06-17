@@ -51,7 +51,7 @@ export const products: Product[] = [
     id: '4',
     name: 'Cherry Blossom',
     price: 30,
-    image: 'https://images.pexels.com/photos/2614199/pexels-photo-2614199.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'public/assets/images/im3.png',
     category: 'glossy',
     finish: 'glossy',
     shade: 'Cherry Blossom',
